@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.eightfolds.smallestapp">
+
+    <application
+        android:icon="@android:drawable/ic_delete"
+        android:label="SmallestApp">
+        <activity android:name=".a">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
